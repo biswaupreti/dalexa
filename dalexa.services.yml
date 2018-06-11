@@ -1,0 +1,5 @@
+services:
+ dalexa.request_subscriber:
+   class: Drupal\dalexa\EventSubscriber\RequestSubscriber
+   tags:
+     - { name: event_subscriber }

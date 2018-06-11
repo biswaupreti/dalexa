@@ -1,0 +1,7 @@
+name: dAlexa
+type: module
+description: Custom drupal alexa module that reads latest articles
+core: 8.x
+package: Alexa
+dependencies:
+ - alexa
